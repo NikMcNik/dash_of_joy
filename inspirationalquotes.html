@@ -21,12 +21,22 @@
       <button id="quoteform">Upload a quote you like</button>
     </div>
     <div class="insparationalquoteform">
-      <form class="hidden" action="/action_page.php">
-        <label for="fname"> Quote:</label><br />
-        <input type="text" /><br />
-        <label for="fname"> Author Name:</label><br />
-        <input type="text" /><br />
-        <input type="submit" />
+      <form class="hidden" action="/add_quote.php" method="post">
+        <div>
+          <label for="newquote"> Quote:</label>
+        </div>
+        <div>
+          <input type="text" name="quote" id="newquote" />
+        </div>
+        <div>
+          <label for="author"> Author Name:</label>
+        </div>
+        <div>
+          <input type="text" name="author" id="author" />
+        </div>
+        <div>
+          <input type="submit" value="Submit Quote and Author" />
+        </div>
       </form>
     </div>
 
