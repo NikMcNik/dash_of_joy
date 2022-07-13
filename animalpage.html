@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="mainstylesheet.css" rel="stylesheet" />
+    <script src="animalphotos.js" defer></script>
+    <title>Animal Photos</title>
+  </head>
+  <body>
+    <h1>A Dash of Joy</h1>
+
+    <div class="contentbutton">
+      <button id="photos">Get Random Cats</button>
+    </div>
+    <div class="content">
+      <img
+        class="hidden"
+        src="https://i2-prod.mirror.co.uk/incoming/article25609246.ece/ALTERNATES/s1200d/0_PUSS-IN-BOOTS.jpg"
+      />
+    </div>
+    <div class="formbutton">
+      <button id="animalform">Upload a photo of your own animal friend</button>
+    </div>
+    <div class="animalphotoform">
+      <form class="hidden" action="/action_page.php">
+        <input type="file" id="myFile" name="filename" /> <br />
+        <input type="submit" />
+      </form>
+    </div>
+    <a class="nonimagelink" href="index.html">Home </a>
+  </body>
+</html>
