@@ -260,8 +260,7 @@ button {
   width: 34.25em;
 }
 .welllinks {
-  display: flex;
-  flex-direction: row;
+  
   justify-content: space-evenly;
   flex-wrap:wrap;
 

@@ -16,16 +16,16 @@
   <div class="navigation">
     <div>
       <a href="animalpage.html">
-        <img class="navimage" src="images/animalphotosimage.jpg" alt="Animal Photos" />
+        <img class="navimage" src="images/animalphotosimagetest.png" alt="Animal Photos" />
       </a>
     </div>
     <div>
       <a href="inspirationalquotes.html">
-        <img class="navimage" src="images/insperationalquoteimage.jpg" alt="Insperationa Quotes" /></a>
+        <img class="navimage" src="images/insperationalquoteimagetest.png" alt="Insperationa Quotes" /></a>
     </div>
     <div>
       <a href="snackideas.html">
-        <img class="navimage" src="images/snackideaimage.jpg" alt="Snack Ideas" />
+        <img class="navimage" src="images/snackideaimagetest.png" alt="Snack Ideas" />
       </a>
     </div>
   </div>
